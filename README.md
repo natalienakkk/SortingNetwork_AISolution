@@ -1,8 +1,10 @@
 # SortingNetwork_AISolution
-Coevolution approach to the sorting network problem.
+![python](https://img.shields.io/badge/Language-Python-pink)
+
+**Coevolution approach to the sorting network problem.**
 
 
-Background:
+**Background:**
 
 Coevolution is an evolutionary computation technique where multiple populations evolve together, typically in a competitive environment. The evolution of one population is dependent on the evolution of the other, and they influence each other's fitness landscapes. This approach can be particularly effective in problems where the solution space is dynamic and dependent on multiple factors or agents.
 
@@ -10,7 +12,7 @@ In the context of the sorting network problem, coevolution involves two populati
 
 This project explores the use of coevolutionary algorithm to identify optimal sorting networks based on the foundational work of Hili's experiment. The goal is to determine the best sorting network configurations and the number of comparators required for different input sizes.
 
-Approach:
+**Approach:**
 
 1. Evolution of Sorting Networks:
 1.1.Selection: Tournament selection was employed, where a subset of individuals is chosen, and the best among them, based on fitness, is selected for the next generation.
@@ -32,7 +34,7 @@ Inputs were treated as permutations, and the goal was to evolve inputs that pose
 By evolving challenging inputs, the sorting networks were constantly tested, ensuring that only the most robust networks progressed through the generations.
 
 
-Highlights:
+**Highlights:**
 
 1.Built upon Hili's experiment results to set benchmarks for optimal sorting network configurations.
 
